@@ -2,7 +2,7 @@
 
 #
 # os-checker.rb file
-# Created by Liam Powell (gfelipe099)
+# Created by Ken Hoo (mrkenhoo)
 # for macOS amd64
 #
 require 'os'
