@@ -2,19 +2,17 @@
 
 #
 # os-checker.rb file
-# Created by Liam Powell (gfelipe099)
+# Created by Ken Hoo (mrkenhoo)
 # for macOS amd64
 #
 def packageInstaller
     packages = [
         "spotify",
-        "discord",
         "steam",
         "origin",
-        "epic-games",
         "onlyoffice",
         "vscodium",
-        "brave-browser"
+        "firefox"
     ]
     packages.each do |pkg|
         system("brew install #{pkg}")
