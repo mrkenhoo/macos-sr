@@ -7,12 +7,14 @@
 #
 def packageInstaller
     packages = [
-        "spotify",
+        "deezer",
         "steam",
         "origin",
         "onlyoffice",
         "vscodium",
-        "firefox"
+        "bitwarden",
+        "amethyst",
+        "iterm2"
     ]
     packages.each do |pkg|
         system("brew install #{pkg}")
