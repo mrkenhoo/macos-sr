@@ -13,6 +13,8 @@ def packageInstaller
         "onlyoffice",
         "vscodium",
         "bitwarden",
+        "p7zip",
+        "librewolf"
     ]
     packages.each do |pkg|
         system("brew install #{pkg}")
